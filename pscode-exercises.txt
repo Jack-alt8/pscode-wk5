@@ -1,0 +1,42 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+Ask for 2 integers (j), (i)
+ Do not proceed unless 2 integers are received
+ Make note of integers received by user (j&&i)
+   Perform (j+i)
+    Display answer to (j+i) for user
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Ask for an integer (j)
+ Do not proceed unless an integer is received
+ Make note of integer received by user (j)
+  Perform (j/2)
+   If j/2
+    Display "This number is even"
+   Else 
+    Display "This number is odd"
+    
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Ask for 5 integers (a), (b), (c), (d), (e)
+ Do not proceed unless 5 integers are received
+ Make note of integers received by user (a), (b), (c), (d), (e) 
+  List numbers on separate lines 
+ Perform (a+b+c+d+e)
+  Take answer (l) to (a+b+c+d+e) and perform (l/5)
+   Make note of the answer (f) to (l/5)
+ Perform (i>j) for each integer on a line with every other integer in the list
+  Move down a line
+ Loop command (i>j) until command used on every line then stop
+  Make note of the largest number (t) and smallest (s) from (i>j)
+ Display "The average number of this list is (f)"
+ Then display "The maximum number of this list is (t) and smallest is (s)"
+
+-- END --
